@@ -1,3 +1,9 @@
 var playlist = {
-  "Elton John": "Don't Shoot Me I'm Only the Piano Player"
+  "Elton John": "Your Song"
 };
+
+function updatePlaylist(playlist, artist, song) {
+  playlist[artist] = song;
+  return playlist;
+}
+
